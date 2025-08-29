@@ -38,10 +38,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // Here you would typically send the contact form to your API
       console.log('Sending contact form:', contactForm);
-
-      // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
       toast({

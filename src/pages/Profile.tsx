@@ -22,7 +22,6 @@ const Profile = () => {
   });
 
   const handleSave = () => {
-    // In a real app, this would make an API call
     toast({
       title: 'Profile Updated',
       description: 'Your profile has been successfully updated.'
